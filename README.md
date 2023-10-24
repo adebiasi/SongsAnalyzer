@@ -4,6 +4,8 @@
 
 Simple program to automatically retreive songs data (lyrics + guitar chords) and visualize them. The data is scraped from UltimateGuitar.com. The visualization is created using p5.js. The input is a list of song titles. The current data is related to the top chart songs from 1950 to 2020.
 
+
+![Alt Text](https://github.com/adebiasi/SongsAnalyzer/blob/main/preview.gif)
 ## Workflow
 
 ### Retrieve the link of the pages
