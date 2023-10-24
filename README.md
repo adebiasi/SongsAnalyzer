@@ -238,5 +238,5 @@ It generates a json containing, for each song, the link of the available pages. 
 The songs are ordered by date. For each song it's possible to see the number of words contained in the lyrics, the number of chords used, the structure of the song with the chord progression. 
 
 ## Next Steps
-- [ ] Extract the chords progression from the list of chords. E.g. **C - G - Am - C - G - Am - Em** became **(C - G - Am) - Em**.
-- [ ] Change the size of the chords and words accordingly to the occurrence frequency.
+- [ ] Extract the chords progression from the list of chords. E.g. **C - G - Am - C - G - Am - Em** becames **(C - G - Am) - Em**.
+- [ ] Change the size of the chords and words accordingly to their occurrence frequency.
