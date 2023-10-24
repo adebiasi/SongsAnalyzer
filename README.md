@@ -2,7 +2,7 @@
 
 ## Project goal
 
-Simple program to automatically retreive songs data (lyrics + guitar chords) and visualize them. The data is scraped from UltimateGuitar.com. The visualization is created using p5.js. The input is a list of song titles.
+Simple program to automatically retreive songs data (lyrics + guitar chords) and visualize them. The data is scraped from UltimateGuitar.com. The visualization is created using p5.js. The input is a list of song titles. The current data is related to the top chart songs from 1950 to 2020.
 
 ## Workflow
 
@@ -234,9 +234,10 @@ It generates a json containing, for each song, the link of the available pages. 
         },
 ```
 
-# Visualize the data
+### Visualize the data
 The songs are ordered by date. For each song it's possible to see the number of words contained in the lyrics, the number of chords used, the structure of the song with the chord progression. 
 
 ## Next Steps
 - [ ] Extract the chords progression from the list of chords. E.g. **C - G - Am - C - G - Am - Em** becames **(C - G - Am) - Em**.
-- [ ] Change the size of the chords and words accordingly to their occurrence frequency.
+- [ ] Change the size of the chords and words according to their occurrence frequency.
+- [ ] Compare the lyrics and music of two groups of songs (e.g Beatles vs Rolling Stones)
