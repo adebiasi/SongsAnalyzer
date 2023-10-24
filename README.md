@@ -234,7 +234,7 @@ It generates a json containing, for each song, the link of the available pages. 
         },
 ```
 
-# Visualize the data
+### Visualize the data
 The songs are ordered by date. For each song it's possible to see the number of words contained in the lyrics, the number of chords used, the structure of the song with the chord progression. 
 
 ## Next Steps
