@@ -83,7 +83,7 @@ def extractSongData(context):
         "against", "between", "into", "through", "during", "before", "after", "above", "below", "to", "from", "up",
         "down", "in", "out", "on", "off", "over", "under", "again", "further", "then", "once", "here", "there", "when",
         "where", "why", "how", "all", "any", "both", "each", "few", "more", "most", "other", "some", "such", "no", "nor",
-        "not", "only", "own", "same", "so", "than", "too", "very", "s", "t", "can", "will,", "just", "don", "should", "now", "m", "ll", "re", "doesn","ve","d","didn","cos","n","ain","wouldn", "em","isn", "oh", "uh","til","ah","yeah", "hey", "let", "ooh", "mmm", "eh"
+        "not", "only", "own", "same", "so", "than", "too", "very", "s", "t", "can", "will,", "just", "don", "should", "now", "m", "ll", "re", "doesn","ve","d","didn","cos","n","ain","wouldn", "em","isn", "oh", "uh","til","ah","yeah", "hey", "let", "ooh", "mmm", "eh", "ooh", "like", "ya", "let", "get"
     ]
     
     return {'structure':valid_parts, 'music':chords, 'lyrics': re.sub(r'\s+', ' ', lyrics), 'words_occurrences':estrai_parole_e_occorrenze(lyrics, stop_words), 'chords_occurrences':extract_all_chords(chords)}
